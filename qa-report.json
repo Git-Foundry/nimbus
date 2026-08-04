@@ -1,0 +1,299 @@
+{
+  "iterations": [
+    {
+      "iteration": 1,
+      "findings": [
+        {
+          "file": "index.html",
+          "severity": "major",
+          "issue": "Weak visual hierarchy in the hero section. The headline 'Unlocking Precision in Airport Airside Operations with Predictive Intelligence' does not command sufficient attention due to insufficient contrast and scale differentiation from the subheadline.",
+          "fix": "Increase font size of the hero headline, use a bolder weight (e.g., 700 or 800), and ensure it has a higher contrast ratio against the background. Reduce the subheadline size and opacity to create a clear distinction."
+        },
+        {
+          "file": "index.html",
+          "severity": "major",
+          "issue": "AI-design tell: All-caps eyebrow labels above every heading (e.g., 'OUR SOLUTION', 'PILOT PROGRAM', 'KEY PROTOTYPE CAPABILITIES') create a repetitive and templated feel, detracting from the editorial sophistication.",
+          "fix": "Remove all-caps eyebrow labels or replace them with subtle, minimal typographic cues (e.g., small caps, lighter weight, or reduced size) to maintain hierarchy without overt styling."
+        },
+        {
+          "file": "index.html",
+          "severity": "major",
+          "issue": "AI-design tell: Numbered section markers (e.g., '01/02', '01.1', '02.2') disrupt the editorial flow and introduce a mechanical, templated aesthetic.",
+          "fix": "Remove numbered markers entirely. Use typographic scale, spacing, and alignment to establish hierarchy and flow."
+        },
+        {
+          "file": "index.html",
+          "severity": "major",
+          "issue": "Inconsistent spacing rhythm between sections. The vertical gaps between 'Our Pilot Program Process' and surrounding sections are tighter than elsewhere, breaking the structured rhythm.",
+          "fix": "Standardize vertical spacing between all major sections (e.g., 80px–100px padding top and bottom) to enforce a consistent architectural rhythm."
+        },
+        {
+          "file": "index.html",
+          "severity": "major",
+          "issue": "AI-design tell: Identical icon+heading+text card grids in 'Pilot Program Process' and 'Key Prototype Capabilities' sections feel templated and lack editorial sophistication.",
+          "fix": "Vary the layout for these sections. For example, use a staggered grid, asymmetric alignment, or full-width imagery to break the rigid card pattern and reinforce the architectural aesthetic."
+        },
+        {
+          "file": "index.html",
+          "severity": "minor",
+          "issue": "The 'Frequently Asked Questions' section lacks visual distinction. The accordion items blend into the background, reducing engagement.",
+          "fix": "Add subtle borders, background fills, or hover states to the FAQ items to improve interactivity and visual separation. Ensure the active state is clearly visible."
+        },
+        {
+          "file": "index.html",
+          "severity": "minor",
+          "issue": "Default-looking buttons (e.g., 'Request Prototype Access', 'Explore Engagement') lack refinement and do not align with the high-contrast, minimalist aesthetic.",
+          "fix": "Redesign buttons to be minimal and precise: use thin borders, uppercase labels, and high-contrast fills (e.g., white text on dark red or vice versa). Remove default browser styles (e.g., padding, border-radius)."
+        },
+        {
+          "file": "index.html",
+          "severity": "minor",
+          "issue": "The contact form fields use default browser styling, breaking the high-contrast, minimalist aesthetic.",
+          "fix": "Apply consistent styling to form fields: thin borders, high-contrast text, and precise padding. Use the same typography and color scheme as the rest of the page."
+        },
+        {
+          "file": "index.html",
+          "severity": "minor",
+          "issue": "The 'Connect with Nimbus' card in the footer uses a decorative drop shadow, which feels out of place in the precise, architectural aesthetic.",
+          "fix": "Remove the drop shadow. Use a solid background fill and precise alignment to maintain the minimalist, high-contrast look."
+        },
+        {
+          "file": "index.html",
+          "severity": "blocker",
+          "issue": "Horizontal scroll present at 390px width, indicating overflow or unconstrained elements.",
+          "fix": "Add `overflow-x: hidden;` to the `<body>` element and ensure all containers use `width: 100%; box-sizing: border-box;` with no negative margins or unconstrained padding."
+        },
+        {
+          "file": "index.html",
+          "severity": "major",
+          "issue": "Weak visual hierarchy: Hero section lacks dominance due to small heading size, low-contrast subtitle, and insufficient spacing between the headline and the CTA button.",
+          "fix": "Increase hero heading font size to at least 2.5rem, use a heavier font weight (e.g., 700), and add 2rem margin-bottom before the CTA. Ensure subtitle contrast meets WCAG AA (minimum 4.5:1)."
+        },
+        {
+          "file": "index.html",
+          "severity": "major",
+          "issue": "AI-design tell: All-caps eyebrow labels above every heading create a robotic, templated feel and disrupt editorial sophistication.",
+          "fix": "Remove all-caps eyebrow labels entirely. Replace with subtle typographic cues (e.g., small caps, italics, or color) only where hierarchy genuinely demands it."
+        },
+        {
+          "file": "index.html",
+          "severity": "major",
+          "issue": "AI-design tell: 01/02/03 numbered section markers are decorative and undermine the editorial aesthetic.",
+          "fix": "Remove numbered markers. Use typographic scale and spacing to establish hierarchy instead."
+        },
+        {
+          "file": "index.html",
+          "severity": "major",
+          "issue": "AI-design tell: Identical icon+heading+text card grids in 'Our Plan Progress Process' and 'Key Partnership Capabilities' feel templated and lack editorial nuance.",
+          "fix": "Replace grid with asymmetrical layouts, pull quotes, or varied card sizes to create a more editorial, less algorithmic feel."
+        },
+        {
+          "file": "index.html",
+          "severity": "major",
+          "issue": "Inconsistent spacing rhythm: Vertical margins between sections vary (e.g., tight spacing after 'Unlocking Precision' vs. generous after 'Key Partnership Capabilities').",
+          "fix": "Standardize section spacing to 4rem top/bottom for major sections and 2rem for sub-sections. Use a CSS variable (e.g., `--section-gap`) for consistency."
+        },
+        {
+          "file": "index.html",
+          "severity": "major",
+          "issue": "Default-looking buttons: CTA buttons use generic styling (rounded corners, solid fill) that clashes with the architectural aesthetic.",
+          "fix": "Redesign buttons to align with the aesthetic: sharp corners, minimal padding, high-contrast border, and subtle hover effects (e.g., underline or color shift)."
+        },
+        {
+          "file": "index.html",
+          "severity": "major",
+          "issue": "Colored accent stripe borders (e.g., under 'Frequently Asked Questions') feel decorative and break the minimalist, high-contrast direction.",
+          "fix": "Replace colored stripes with thin (1px) high-contrast borders or remove entirely. Use spacing and typography to separate sections."
+        },
+        {
+          "file": "index.html",
+          "severity": "minor",
+          "issue": "Form fields ('Name', 'Email') use default browser styling, undermining the custom aesthetic.",
+          "fix": "Style form fields with sharp corners, high-contrast borders, and consistent padding. Ensure focus states are visible and match the design system."
+        },
+        {
+          "file": "index.html",
+          "severity": "minor",
+          "issue": "Text in 'Our Plan Progress Process' cards is tightly packed, reducing readability.",
+          "fix": "Increase line height to at least 1.5 and add 0.5rem padding between heading and text in cards."
+        },
+        {
+          "file": "index.html",
+          "severity": "minor",
+          "issue": "Footer text ('Connect with NetraFlow') uses a generic font weight and size, blending into the background.",
+          "fix": "Increase font weight to 600 and size to 1.25rem. Ensure contrast meets WCAG AA standards."
+        },
+        {
+          "file": "index.html",
+          "severity": "major",
+          "issue": "Cliched AI copy: The phrase 'unparalleled foresight' is used in the 'About Nimbus' section, which is similar to the common cliche 'unparalleled service'.",
+          "fix": "In the 'About Nimbus' section, change 'unparalleled foresight' to 'exceptional foresight' or 'unrivalled foresight'. Example: 'Our mission is to provide airport operators with exceptional foresight, transforming complex data...'"
+        },
+        {
+          "file": "index.html",
+          "severity": "major",
+          "issue": "Cliched AI copy: The phrase 'committed to pioneering innovation' in the 'About Nimbus' section falls into the family of cliched phrases like 'committed to excellence'.",
+          "fix": "In the 'About Nimbus' section, change 'committed to pioneering innovation' to a more distinctive phrase. Example: 'We champion innovation in airport technology.' or 'We lead the way in airport technology innovation.'"
+        },
+        {
+          "file": "index.html",
+          "severity": "major",
+          "issue": "Repetitive and cliched phrasing: The word 'elevate/elevating' is used multiple times across different sections (Hero, CTA, Footer), bordering on a generic AI-generated feel.",
+          "fix": "Vary the language across these sections:\n- Hero sub-text: '...enhancing operational efficiency and strategic planning...'\n- CTA banner hook: 'Ready to sharpen your airport's operational intelligence?' or 'Ready to advance your airport's operational intelligence?'\n- Footer copyright: '...refining aviation operations.' or '...optimising aviation operations.'"
+        },
+        {
+          "file": "index.html",
+          "severity": "minor",
+          "issue": "Repetitive phrasing: The term 'actionable insights/intelligence/recommendations' is used frequently, which can sound generic and less impactful.",
+          "fix": "Introduce more varied and specific language where appropriate:\n- Hero sub-text: '...precise, practical insights...'\n- Features list (Fuel Consumption): Consider removing 'actionable' if the context is clear, or replace with 'concrete recommendations'.\n- About Nimbus: '...turning complex data into clear, practical intelligence...'"
+        },
+        {
+          "file": "index.html",
+          "severity": "minor",
+          "issue": "Filler/generic copy: The sentence 'This work is about building a foundation for a more predictable and efficient future in aviation' in the 'The fix' section is vague and adds little concrete information.",
+          "fix": "Strengthen or remove this sentence. Example: 'This foundational work ensures a more predictable and efficient future for aviation.' or integrate its essence into the preceding sentences for greater conciseness."
+        },
+        {
+          "file": "index.html",
+          "severity": "minor",
+          "issue": "Generic placeholder text: The address 'Innovation Hub, Data Drive, Tech City, TC1 1AA, United Kingdom' in the contact block, while correctly formatted, reads as a generic placeholder rather than a specific business location, impacting the luxurious/authentic tone.",
+          "fix": "Replace with a real business address or a more convincing, detailed fictional address that aligns with the brand's professional and luxurious tone."
+        },
+        {
+          "file": "404.html",
+          "severity": "major",
+          "antipattern": "overused-font",
+          "issue": "Overused font: Primary font: arial",
+          "fix": "Inter, Roboto, Fraunces, Geist, Plus Jakarta Sans, and Space Grotesk are used on so many sites they no longer feel distinctive. Each new wave of AI-generated UIs converges on the same handful of faces. Choose a face that gives your interface personality."
+        },
+        {
+          "file": "styles.css",
+          "severity": "major",
+          "antipattern": "low-contrast",
+          "issue": "Low contrast text (used on index.html): 2.5:1 (need 4.5:1) — text #c44a4a on #6b1a1a",
+          "fix": "Text does not meet WCAG AA contrast requirements (4.5:1 for body, 3:1 for large text). Increase the contrast between text and background."
+        },
+        {
+          "file": "index.html",
+          "severity": "major",
+          "antipattern": "all-caps-body",
+          "issue": "All-caps body text: text-transform: uppercase on 36 chars of body text",
+          "fix": "Long passages in uppercase are hard to read. We recognize words by shape (ascenders and descenders), which all-caps removes. Reserve uppercase for short labels and headings."
+        },
+        {
+          "file": "index.html",
+          "severity": "minor",
+          "antipattern": "numbered-section-markers",
+          "issue": "Numbered section markers (01 / 02 / 03): Sequence: 01, 02, 03, 04",
+          "fix": "Numbered display markers as section labels (01, 02, 03) are the AI editorial scaffold one tier deeper than tracked eyebrow chips. If you find yourself reaching for them, choose a different section cadence."
+        },
+        {
+          "file": "styles.css",
+          "severity": "major",
+          "antipattern": "layout-transition",
+          "issue": "Layout property animation: transition: width",
+          "fix": "Animating width, height, padding, or margin causes layout thrash and janky performance. Use transform and opacity instead, or grid-template-rows for height animations."
+        }
+      ]
+    },
+    {
+      "iteration": 2,
+      "findings": [
+        {
+          "file": "index.html",
+          "severity": "major",
+          "issue": "Weak visual hierarchy in the hero section. The headline 'Unlocking Precision in Airport Airside Operations with Predictive Intelligence' is not commanding enough due to insufficient contrast and size differentiation from the subheadline.",
+          "fix": "Increase font size, weight, and contrast for the hero headline. Use a bolder typeface or heavier font weight (e.g., 700 or 800). Adjust line height and spacing to ensure it stands out distinctly from the subheadline."
+        },
+        {
+          "file": "index.html",
+          "severity": "major",
+          "issue": "Inconsistent spacing rhythm between sections. The vertical spacing between 'Navigating complex...' and 'Nimbus AI/ML Prototype...' is tighter than other sections, disrupting flow.",
+          "fix": "Standardize vertical spacing between sections using a consistent margin (e.g., `margin-bottom: 4rem;`). Apply this to all section containers for uniformity."
+        },
+        {
+          "file": "index.html",
+          "severity": "major",
+          "issue": "AI-design tell: All-caps eyebrow labels ('OUR PILOT PROGRAM PROCESS', 'KEY PROTOTYPE CAPABILITIES', 'FREQUENTLY ASKED QUESTIONS') above headings feel generic and disrupt the editorial aesthetic.",
+          "fix": "Remove all-caps eyebrow labels or replace them with subtle, integrated typographic cues (e.g., smaller, lighter text or a decorative rule) to maintain sophistication."
+        },
+        {
+          "file": "index.html",
+          "severity": "major",
+          "issue": "AI-design tell: The 'Pilot Program Process' section uses a numbered list format (e.g., no explicit numbering but implied sequence) with identical styling for each step, which feels templated and uninspired.",
+          "fix": "Replace the list with a more editorial layout, such as a staggered grid or asymmetrical text blocks, to reinforce the architectural and sophisticated aesthetic. Remove any implied numbering."
+        },
+        {
+          "file": "index.html",
+          "severity": "major",
+          "issue": "AI-design tell: The 'Key Prototype Capabilities' section uses a repetitive icon+heading+text card grid, which feels generic and unstructured.",
+          "fix": "Redesign the capabilities section to use a more editorial layout, such as a single-column narrative with pull quotes or a dynamic grid with varied widths and alignments to create visual interest."
+        },
+        {
+          "file": "index.html",
+          "severity": "minor",
+          "issue": "The form fields in the 'Connect with Nimbus' section use default browser styles (e.g., thin borders, lack of padding), which detracts from the high-contrast, minimalist aesthetic.",
+          "fix": "Apply custom styling to form fields: increase border thickness, use a monochromatic color scheme, add padding, and ensure consistent height and alignment with the button."
+        },
+        {
+          "file": "index.html",
+          "severity": "minor",
+          "issue": "The 'Request Predictive Advantage' button uses a default-looking style with insufficient contrast against the form background.",
+          "fix": "Redesign the button to align with the high-contrast aesthetic: use a bold, solid fill (e.g., dark red or black) with white text, increase padding, and add subtle hover effects."
+        },
+        {
+          "file": "index.html",
+          "severity": "minor",
+          "issue": "The footer text ('© 2025 Nimbus AI. All rights reserved.') is small and lacks emphasis, making it feel like an afterthought.",
+          "fix": "Increase font size and weight for the footer text. Align it with the left edge of the content container to match the editorial layout of the rest of the page."
+        },
+        {
+          "file": "index.html",
+          "severity": "minor",
+          "issue": "The 'About Nimbus' section lacks visual separation from the preceding content, making it blend into the flow rather than stand out as a distinct section.",
+          "fix": "Add a subtle visual divider (e.g., a thin horizontal rule or a small vertical spacing increase) above the 'About Nimbus' section to create separation and hierarchy."
+        },
+        {
+          "file": "index.html",
+          "severity": "minor",
+          "issue": "The sentence 'This work is about building a foundation for a more predictable and efficient future in aviation' in the solution section feels generic and adds little concrete value, detracting from the desired precise and luxurious tone.",
+          "fix": "Consider removing this sentence for greater conciseness, or rephrase it to be more specific and impactful regarding the prototype's immediate benefits. For example, simply removing it after 'optimised resource deployment across the airside' would tighten the copy."
+        },
+        {
+          "file": "index.html",
+          "severity": "major",
+          "issue": "The 'About Nimbus' section uses cliched, AI-like phrasing such as 'At Nimbus, we believe in the transformative power,' 'Our mission is to provide,' and 'We champion innovation.' This lacks originality and diminishes the authoritative, luxurious tone.",
+          "fix": "Rewrite this section to be more unique, direct, and confident. Focus on what Nimbus *does* and *achieves*. For example: 'Nimbus redefines aviation efficiency through precise data. We empower airport operators with exceptional foresight, transforming complex data into clear, actionable intelligence that drives safer, smoother, and more sustainable airside operations.'"
+        },
+        {
+          "file": "index.html",
+          "severity": "minor",
+          "issue": "In the FAQ answer for 'How does Nimbus integrate with existing airport systems?', the phrase 'We aim to connect' is a bit soft and lacks the authoritative tone expected for a luxurious brand. It implies a goal rather than a capability.",
+          "fix": "Rephrase to be more assertive and confident. For example: 'As a prototype, our initial integrations are designed for modularity, connecting seamlessly with common operational data feeds. We can discuss specific system compatibility during early access consultations.'"
+        },
+        {
+          "file": "styles.css",
+          "severity": "major",
+          "antipattern": "low-contrast",
+          "issue": "Low contrast text (used on index.html): 1.5:1 (need 4.5:1) — text #903030 on #6b1a1a",
+          "fix": "Text does not meet WCAG AA contrast requirements (4.5:1 for body, 3:1 for large text). Increase the contrast between text and background."
+        },
+        {
+          "file": "index.html",
+          "severity": "major",
+          "antipattern": "all-caps-body",
+          "issue": "All-caps body text: text-transform: uppercase on 36 chars of body text",
+          "fix": "Long passages in uppercase are hard to read. We recognize words by shape (ascenders and descenders), which all-caps removes. Reserve uppercase for short labels and headings."
+        },
+        {
+          "file": "styles.css",
+          "severity": "major",
+          "antipattern": "layout-transition",
+          "issue": "Layout property animation: transition: width",
+          "fix": "Animating width, height, padding, or margin causes layout thrash and janky performance. Use transform and opacity instead, or grid-template-rows for height animations."
+        }
+      ]
+    }
+  ],
+  "generated": "2026-08-04T21:08:06.247Z"
+}
