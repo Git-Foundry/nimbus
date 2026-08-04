@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Page not found — Nimbus</title>
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <!-- Assuming the main stylesheet is linked here, which provides the font variables. -->
+  <!-- <link rel="stylesheet" href="style.css"> -->
+  <style>
+    /* Inlined styles to specifically set the 404 page's layout and colors, 
+       while leveraging the global font variables defined in the main stylesheet. */
+    body { 
+      margin: 0; 
+      min-height: 100vh; 
+      display: grid; 
+      place-items: center; 
+      background: var(--color-bg, #faf8f8); /* Use global var, fallback to current hex */
+      color: var(--color-text, #2b1a1a);   /* Use global var, fallback to current hex */
+      font-family: var(--font-body, sans-serif); /* Apply global body font */
+      text-align: center; 
+      -webkit-font-smoothing: antialiased; /* Maintain global smoothing */
+      -moz-osx-font-smoothing: grayscale;
+    }
+    h1 { 
+      font-size: clamp(2.8rem, 7vw, 5.5rem); /* Adopt global h1 sizing */
+      font-family: var(--font-display, serif); /* Apply global display font */
+      font-weight: 700; /* Adopt global h1 weight */
+      letter-spacing: -0.04em; /* Adopt global h1 letter-spacing */
+      margin: 0 0 var(--spacing-md, 24px); /* Use global spacing, fallback */
+      color: var(--color-primary, #6b1a1a); /* Use global var, fallback to current hex */
+    }
+    p {
+      font-size: clamp(1rem, 2vw, 1.3rem); /* Size to be visually appropriate, similar to hero sub */
+      max-width: 55ch; /* Control line length */
+      margin-top: var(--spacing-sm, 16px); /* Add some margin from h1 */
+      margin-left: auto; /* Center p if it's narrower than its container */
+      margin-right: auto; /* Center p if it's narrower than its container */
+      text-wrap: pretty; /* Adopt global p text-wrap */
+    }
+    a { 
+      display: inline-flex; /* Adopt btn display */
+      align-items: center; /* Adopt btn alignment */
+      justify-content: center; /* Adopt btn alignment */
+      margin-top: var(--spacing-lg, 32px); /* Use global spacing, adjusted for visual flow */
+      padding: var(--spacing-sm, 16px) var(--spacing-lg, 32px); /* Adopt btn padding */
+      background: var(--color-primary, #6b1a1a); /* Use global var, fallback to current hex */
+      color: var(--color-white, #faf8f8); /* Use global var, fallback to current hex */
+      text-decoration: none; 
+      border-radius: var(--border-radius-md, 8px); /* Adopt global border-radius */
+      font-family: var(--font-body, sans-serif); /* Adopt global body font for buttons */
+      font-size: 1rem; /* Adopt global btn font-size */
+      font-weight: 500; /* Adopt global btn font-weight */
+      border: 2px solid transparent; /* Mimic btn style */
+      transition: background-color 0.2s ease, color 0.2s ease, border-color 0.2s ease, transform 0.2s ease; /* Mimic btn transition */
+      white-space: nowrap; /* Mimic btn style */
+      letter-spacing: 0.02em; /* Mimic btn style */
+    }
+    a:hover {
+      background-color: var(--color-secondary, #8b2a2a); /* Mimic btn--primary hover */
+      border-color: var(--color-secondary, #8b2a2a); /* Mimic btn--primary hover */
+      transform: translateY(-2px); /* Mimic btn hover */
+    }
+    a:focus-visible { /* Mimic btn focus-visible */
+      outline: 3px solid var(--color-accent, #c44a4a);
+      outline-offset: 3px;
+      border-radius: var(--border-radius-md, 8px);
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>404</h1>
+    <p>That page doesn't exist.</p>
+    <a href="/">Back to Nimbus</a>
+  </main>
+</body>
+</html>
